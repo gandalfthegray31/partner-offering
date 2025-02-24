@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: here-offerings
+  description: A collection of all HERE offerings
+spec:
+  targets:
+    - ./here-offerings/elektrobit/virtual-ivi-development-for-android-by-elektrobit.yaml
+    - ./here-offerings/genymobile/genymotion-cloud-car-android-automotive-os-14.0.yaml
+    - ./here-offerings/amplitude-analytics/amplitude-digital-analytics-platform.yaml
